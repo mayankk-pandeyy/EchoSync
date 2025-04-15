@@ -112,7 +112,7 @@ const ChatRoom = () => {
                                 {/* Show Messages */}
                                 {
                                     messages.map((message, index)=>{
-                                        return <div key={index} className={`${messageInput === message.message ? "text-end" : "justify-start"} text-white w-[98%] mx-auto`}>
+                                        return <div key={index} className={`${messageInput === message.message ? "text-end" : "justify-start"} text-white w-[98%] mx-auto mt-3`}>
                                             <div className="text-[10px] text-start">{message.sender}</div>
                                             <div className="text-[18px] bg-[#F7FF58] max-w-max px-6 py-1 text-[#020300] rounded-xl">{message.message}</div>
                                         </div>
